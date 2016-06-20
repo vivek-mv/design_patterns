@@ -15,7 +15,7 @@
 
 		private function manufacture($carModel) {
 			$this->car = new ManufactureCar($carModel);
-			array_push($this->manufacturedCars,$this->car->model;);
+			array_push($this->manufacturedModels,$this->car->model;);
 		}
 	} 
 
